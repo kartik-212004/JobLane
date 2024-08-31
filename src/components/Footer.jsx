@@ -1,8 +1,8 @@
 import { MdOutlineBusinessCenter } from 'react-icons/md'
 import { Link } from 'react-router-dom'
-import { FaFacebook,FaTwitterSquare,  FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaYoutube } from 'react-icons/fa'
 
-import { AiFillInstagram, AiFillMail } from 'react-icons/ai'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillMail } from 'react-icons/ai'
 import { FaXTwitter } from "react-icons/fa6";
 
 
@@ -67,6 +67,14 @@ export const Footer = () => {
             />
             <AiFillMail
               className="cursor-pointer hover:text-[#D44638] duration-200 ease"
+              size={22}
+            />
+            <AiFillLinkedin
+              className="cursor-pointer hover:text-[#0764c1] duration-200 ease"
+              size={22}
+            />
+            <AiFillGithub
+              className="cursor-pointer duration-200 ease"
               size={22}
             />
           </div>
